@@ -26,8 +26,8 @@ This Proof of Concept (PoC) demonstrates a simple Event-Driven Architecture (EDA
 - This PoC serves as a foundation for building more complex event-driven systems, such as microservices architectures, real-time data pipelines, or event sourcing implementations.  
 
 ## Prerequisites
-- **.NET SDK:** Ensure you have the .NET SDK installed. Download it from here.
+- **.NET SDK:** Ensure you have the .NET SDK installed. Download it from [here](https://dotnet.microsoft.com/en-us/download).
 
-- **Docker:** Install Docker to run Kafka and Zookeeper. Download Docker from here.
+- **Docker:** Install Docker to run Kafka and Zookeeper. Download Docker from [here](https://www.docker.com).
 
 - **Confluent.Kafka Library:** The project uses the Confluent.Kafka NuGet package for Kafka integration.
