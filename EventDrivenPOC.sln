@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventMessageReceiver", "EventMessageReceiver\EventMessageReceiver.csproj", "{E36FBA38-BB8E-4DD7-8D96-E783FBFA72F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventMessageSender", "EventMessageSender\EventMessageSender.csproj", "{2C177B9E-0094-42E3-AAB3-54EC9D1E0544}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EBF54D39-6A1E-44B4-8F30-48F7476B05E3}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E36FBA38-BB8E-4DD7-8D96-E783FBFA72F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36FBA38-BB8E-4DD7-8D96-E783FBFA72F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E36FBA38-BB8E-4DD7-8D96-E783FBFA72F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E36FBA38-BB8E-4DD7-8D96-E783FBFA72F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C177B9E-0094-42E3-AAB3-54EC9D1E0544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C177B9E-0094-42E3-AAB3-54EC9D1E0544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C177B9E-0094-42E3-AAB3-54EC9D1E0544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C177B9E-0094-42E3-AAB3-54EC9D1E0544}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

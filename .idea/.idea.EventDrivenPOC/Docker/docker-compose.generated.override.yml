@@ -1,0 +1,40 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  eventmessagereceiver:
+    build:
+      context: "C:\\Users\\X-Bits Software\\RiderProjects\\EventDrivenPOC"
+      dockerfile: "EventMessageReceiver/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/EventMessageReceiver.dll"
+    environment:
+      DOTNET_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "eventmessagereceiver:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\X-Bits Software\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\Users\\X-Bits Software\\RiderProjects\\EventDrivenPOC\\EventMessageReceiver:/app:rw"
+    - "C:\\Users\\X-Bits Software\\RiderProjects\\EventDrivenPOC:/src:rw"
+    working_dir: "/app"
+  eventmessagesender:
+    build:
+      context: "C:\\Users\\X-Bits Software\\RiderProjects\\EventDrivenPOC"
+      dockerfile: "EventMessageSender/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/EventMessageSender.dll"
+    environment:
+      DOTNET_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "eventmessagesender:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\X-Bits Software\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\Users\\X-Bits Software\\RiderProjects\\EventDrivenPOC\\EventMessageSender:/app:rw"
+    - "C:\\Users\\X-Bits Software\\RiderProjects\\EventDrivenPOC:/src:rw"
+    working_dir: "/app"
