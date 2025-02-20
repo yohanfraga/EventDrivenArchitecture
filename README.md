@@ -7,13 +7,13 @@ This Proof of Concept (PoC) demonstrates a simple Event-Driven Architecture (EDA
 
 ### Producer Application:
 
-- Generates events (e.g., OrderCreated) and sends them to a Kafka topic.  
+- Generates events (e.g., MessageSent) and sends them to a Kafka topic.  
 - Simulates a real-world scenario where events are produced by a service (e.g., an e-commerce platform).  
 
 ### Consumer Application:
 
 - Listens to the Kafka topic and processes incoming events.  
-- Demonstrates how downstream services can react to events in real-time.
+- Demonstrates how services can react to events in real-time.
 
 ### Apache Kafka:
 
