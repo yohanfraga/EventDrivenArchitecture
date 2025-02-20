@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\X-Bits Software\\RiderProjects\\EventDrivenPOC\\EventMessageSender\\EventMessageSender.csproj": {}
+    "C:\\Users\\yohan\\RiderProjects\\EventDrivenArchitecture\\EventMessageSender\\EventMessageSender.csproj": {}
   },
   "projects": {
-    "C:\\Users\\X-Bits Software\\RiderProjects\\EventDrivenPOC\\EventMessageSender\\EventMessageSender.csproj": {
+    "C:\\Users\\yohan\\RiderProjects\\EventDrivenArchitecture\\EventMessageSender\\EventMessageSender.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\X-Bits Software\\RiderProjects\\EventDrivenPOC\\EventMessageSender\\EventMessageSender.csproj",
+        "projectUniqueName": "C:\\Users\\yohan\\RiderProjects\\EventDrivenArchitecture\\EventMessageSender\\EventMessageSender.csproj",
         "projectName": "EventMessageSender",
-        "projectPath": "C:\\Users\\X-Bits Software\\RiderProjects\\EventDrivenPOC\\EventMessageSender\\EventMessageSender.csproj",
-        "packagesPath": "C:\\Users\\X-Bits Software\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\X-Bits Software\\RiderProjects\\EventDrivenPOC\\EventMessageSender\\obj\\",
+        "projectPath": "C:\\Users\\yohan\\RiderProjects\\EventDrivenArchitecture\\EventMessageSender\\EventMessageSender.csproj",
+        "packagesPath": "C:\\Users\\yohan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yohan\\RiderProjects\\EventDrivenArchitecture\\EventMessageSender\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\X-Bits Software\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\yohan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Users\\X-Bits Software\\.dotnet\\library-packs": {},
-          "C:\\Users\\X-Bits Software\\RiderProjects\\eTrack.Global\\NuGet Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -69,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\X-Bits Software\\.dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\yohan\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
