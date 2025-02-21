@@ -1,0 +1,40 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  eventconsumer:
+    build:
+      context: "C:\\Users\\yohan\\RiderProjects\\EventDrivenArchitecturePoc"
+      dockerfile: "EventConsumer/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/EventConsumer.dll"
+    environment:
+      DOTNET_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "eventconsumer:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\yohan\\RiderProjects\\EventDrivenArchitecturePoc\\EventConsumer:/app:rw"
+    - "C:\\Users\\yohan\\RiderProjects\\EventDrivenArchitecturePoc:/src:rw"
+    - "C:\\Users\\yohan\\.nuget\\packages:/home/app/.nuget/packages"
+    working_dir: "/app"
+  eventproducer:
+    build:
+      context: "C:\\Users\\yohan\\RiderProjects\\EventDrivenArchitecturePoc"
+      dockerfile: "EventProducer/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/EventProducer.dll"
+    environment:
+      DOTNET_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "eventproducer:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\yohan\\RiderProjects\\EventDrivenArchitecturePoc\\EventProducer:/app:rw"
+    - "C:\\Users\\yohan\\RiderProjects\\EventDrivenArchitecturePoc:/src:rw"
+    - "C:\\Users\\yohan\\.nuget\\packages:/home/app/.nuget/packages"
+    working_dir: "/app"
