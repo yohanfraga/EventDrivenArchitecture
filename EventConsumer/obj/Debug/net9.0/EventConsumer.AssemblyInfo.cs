@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventConsumer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cbb2d2fe9de9e720a52b2eb53925271059ef48e")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventConsumer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventConsumer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
